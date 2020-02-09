@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TheSolarSystem</title>
+  </head>
+  <body>
+    <!-- <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor = 'black';">
+
+    <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor = 'white';"> -->
+
+    <input id = "night_day" type="button" value="nightmode" onclick="
+      var target = document.querySelector('body');
+      if(this.value === 'nightmode'){
+        target.style.backgroundColor = 'black';
+        this.value = 'daymode';
+      }
+      else{
+        target.style.backgroundColor = 'white';
+        this.value = 'nightmode';
+      }
+    ">
+
+
+
+    <p class="main_p">SolorSystem</p>
+    <li class="planet_Sun"><a href="Sun.html" target="_blank">Sun</a></li>
+    <li class="planets"><a href="Mercury.html" target="_blank">Mercury</a></li>
+    <li class="planets"><a href="Venus.html" target="_blank">Venus</a></li>
+    <li class="planet_Earth"><strong><a href="Earth.html" target="_blank">Earth</a></strong></li>
+    <li class="planets"><a href="Mars.html" target="_blank">Mars</a></li>
+    <li class="planets"><a href="Jupiter.html" target="_blank">Jupiter</a></li>
+    <li class="planets"><a href="Saturn.html" target="_blank">Saturn</a></li>
+    <li class="planets"><a href="Uranos.html" target="_blank">Uranos</a></li>
+    <li class="planets"><a href="Neptune.html" target="_blank">Neptune</a></li>
+    <li class="video"><a href="ReferenceVideo.html" target="_blank">Refrence video</a></li>
+
+    <style>
+      .main_p{
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        color: blue;
+        background-color: coral;
+      }
+      .planets{
+        font-size: 25px;
+        text-align: center;
+      }
+      .planet_Earth{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        margin: 10px;
+      }
+      .planet_Sun{
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+        color:Red;
+        margin-right:30px;
+        margin-left:10px
+      }
+      .video{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        color: Blue;
+      }
+
+    </style>
+  </body>
+</html>
